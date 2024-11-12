@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: Gloock;
+  src: url(/fonts/Gloock/Gloock-Regular.ttf);
+}
+
+
+html {
+  background-color: #FFFCE8;
+  color: #47392C;
+  font-family: Inter;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 4rem;
+}
+
+.logo:hover {
+  opacity: 70%;
+}
+
+
+.intro {
+  display: block;
+  font-family: Gloock;
+  font-size: 3rem;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.footer {
+  background-color: #47392C;
+  height: 100px;
+  width: auto;
+}
+
+.footer-elements {
+  display: inline;
+  margin: auto 0;
+}
+
+.mail-icon {
+  padding: 25px 0;
+  width: 50px;
+}
+
+.linkedin-icon {
+  padding: 25px 0;
+  width: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-button {
+  background-color: #FFFCE8;
+  border: none;
+  color: #47392C;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.nav-button:hover {
+  opacity: 70%;
+}
+
