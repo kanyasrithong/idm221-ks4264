@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanya Srithong</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+  <header>
+    <a class="home-button" href="index.html">
+      <img class="logo"src="images/favicon.ico" alt="logo">
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </header>
+
+  <div class="header-spacing"></div>
+
+  <img class="project-image" src="images/spotify-record-player.jpeg">
+
+  <h1 class="project-title">
+    Spotify Record Player
+  </h1>
+
+  <h3 class="project-description">
+    Duration
+    <br>
+    May - June 2024
+    <br>
+    (1 Mo.)
+  </h3>
+
+  <h3 class="project-description">
+    Tools
+    <br>
+    Arduino, Python, C++, TinkerCAD, 3D Printer
+  </h3>
+
+  <div>
+    <h2 class="project-section">
+      Overview
+    </h2>
+  
+    <p class="project-text">
+      For my Maker Workshop class, we were given the task of creating an object utilizing 3D printed components designed using CAD software and an Arduino UNO with functioning code in C++. Utilizing the Spotify API, I altered a Python script that extracts the song name and artist of the current track playing on my personal Spotify account, which were then displayed on an LCD screen connected and powered by my Arduino. The LCD Screen and Arduino components were then encased in a 7” x 7.5” inch 3D printed shell modeled in TinkerCAD to resemble the shape of a record turntable.
+    </p>
+  </div>
+
+  <div class="project-section">
+    <h2>
+      Brainstorming
+    </h2>
+    
+    <p class="project-text">
+      I had come up with a number of initial ideas, a list of which is shown below:
+    </p>
+
+    <img class="project-image" src="images/spotify-record-player/ideas.png">
+
+    <p class="project-text">
+      Out of all of these, the record player idea appealed to me the most. I thought that it would be a good way to challenge myself with this project and allow me to utilize some of my Python knowledge.
+    </p>
+  </div>
+
+  <div class="project-section">
+    <h2>
+      Programming & Debugging
+    </h2>
+
+    <p class="project-text">
+      I first researched methods of extracting specific data from a Spotify account, in this case my own, and allow it to be processed through the Arduino. My initial search led me to a tutorial detailing how an individual went about this exact task using Python and C++ within the official Arduino IDE. My recreation and tests of both the wiring and the provided source code on their GitHub, however, led me to realize that much of the information turned out to be outdated. After much time spent attempting to debug and update the program, I soon realized that finding an alternative method would end up being less time consuming in the long run.
+    </p>
+
+    <img class="project-image" src="images/spotify-record-player/arduino-code.png">
+
+    <img class="project-image" src="images/spotify-record-player/python-code.png">
+
+    <img class="project-image" src="images/spotify-record-player/spotify-api.png">
+
+    <p class="project-text">
+      Fortunately, I stumbled across another GitHub page detailing how to go about the task through the use of Spotify&#39;s Web API in addition to the previously mentioned programs. After creating my own Spotify for Developers account and creating an application to reference within my Python program, I once again debugged and updated other necessary aspects of the program in order for it to function properly.
+    </p>
+  </div>
+
+  <div class="project-section">
+    <h2>
+      Assembly
+    </h2>
+
+    <img class="project-image" src="images/spotify-record-player/arduino-1.png">
+
+    <img class="project-image" src="images/spotify-record-player/arduino-2.png">
+
+    <p class="project-text">
+      Utilizing models I had found for parts of a miniature record player, I modified them using TinkerCAD to both be larger than the original size and to have a hollow base in order to accommodate the Arduino, all of which were eventually printed using a MakerLab 3D Printer. I had initially added a hole in order to accommodate a motor to spin the record plate, however this did not pan out in the printing process and the idea was scrapped. As for the Arduino wiring, I condensed wiring I had taken from the original tutorial I had found onto a smaller breadboard in order to fit within the hollow base.
+    </p>
+
+    <img class="project-image" src="images/spotify-record-player/3d-print.png">
+  </div>
+
+  <div class="project-section">
+    <h2>
+      Results
+    </h2>
+
+    <p class="project-text">
+      Although the programming phase was incredibly arduous, showcasing the final product to the class and professor was worth the effort put into the project. Online resources, my knowledge of Python from a previous Computer Science class, and my own creativity were integral in my success. This class not only fueled a child-like sense of product design creation for me, but also allowed me to develop a better understanding of the design process and the utilization of different tools like laser cutters, basic CAD software, and Arduino!
+    </p>
+
+    <h3>
+      <strong>Watch the Spotify Record Player at work!</strong>
+    </h3>
+    <video></video>
+  </div>
+
+  <div class="footer">
+    <div class="footer-elements">
+      <a href="mailto:ksrithong16@gmail.com">
+        <img class="mail-icon" src="/images/mail.png" alt="mail">
+      </a>
+      <a href="https://www.linkedin.com/in/kanyasrithong/">
+        <img class="linkedin-icon" src="/images/Gensou.jpg">
+      </a>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <a href="/html/creative.html">
+      <button class="nav-button">
+        Creative
+      </button>
+    </a>
+    <a href="/html/resume.html">
+      <button class="nav-button">
+        Resume
+      </button>
+    </a>
+    <a href="/html/about.html">
+    <button class="nav-button">
+      About
+    </button>
+    </a>
+  </div>
+</body>
+</html>
