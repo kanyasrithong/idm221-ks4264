@@ -13,7 +13,7 @@
 <body>
   <header>
     <a class="home-button" href="index.html">
-      <img class="logo"src="images/favicon.ico" alt="logo">
+      <img class="logo" src="images/favicon.ico" alt="logo">
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
     <label for="nav-toggle" class="nav-toggle-label">
@@ -25,7 +25,7 @@
 
   <div class="header-spacing"></div>
 
-  <img class="project-image" src="images/drexel-scheduler.png" alt="drexel-scheduler-thumbnail">
+  <img class="project-image" src="images/drexel-scheduler.png" alt="Drexel Scheduler Thumbnail">
 
   <h1 class="project-title">
     Drexel Scheduler
@@ -66,7 +66,7 @@
       Problem
     </h2>
 
-    <img class="project-image" src="images/drexel-scheduler/original.png" alt="scheduler-original-interface">
+    <img class="project-image" src="images/drexel-scheduler/original.png" alt="Original Scheduler interface">
     
     <p class="project-text">
       The Drexel Scheduler had issues with its overall layout, information hierarchy, and confusing signifiers. Users had difficulty when it cames to navigating certain elements of the user interface, such as the central table containing information about each class and the corresponding professor as well as its accompanying search filters. Because the creator&#39;s intentions were to move the website from its original platform onto a custom domain and redesign it from the ground up, he requested for my group to provide user experience-related feedback to aid him in this process.
@@ -100,11 +100,12 @@
       As part of the target audience for this product, students who attend Drexel University required to schedule our own classes for each term, my group took it upon ourselves to identify the pain points of the original interface. After creating individual wireframes recreating the structure and components page, mine shown below, we came together to discuss our findings.
     </p>
 
-    <img class="project-image" src="images/drexel-scheduler/original-my-wireframe.png">
+    <img class="project-image" src="images/drexel-scheduler/original-my-wireframe.png" alt="My wireframe for the original interface">
 
     <p class="project-text">
       After our discussion, we made the decision to each create our own wireframes illustrating proposed changes we would make to resolve pain points we each identified, with the intention of increasing the website&#39;s overall usability. I then connected my proposals to the design principles Don Norman outlined in his book <i>The Design of Everyday Things</i>, my focal point being the search filters used to narrow down the results of both the entire table and the individual columns within.
     </p>
+
     <h3>
       Change #1: Visibility
     </h3>
@@ -112,6 +113,8 @@
     <h4 class="project-text">
       Original
     </h4>
+
+    <img class="project-image" src="images/drexel-scheduler/original.png" alt="Original Scheduler interface">
 
     <p class="project-text">
       At first glance, the overall visibility of the Drexel Scheduler website was quite overwhelming to look at, with the multiple sections and confusing layout preventing a clear focal point for the viewer to be drawn to. The main culprits perpetuating this issue was the table-wide filters above the table, which took up an unnecessary amount of space at the top of the screen.
@@ -125,21 +128,25 @@
       Because the schedule table should be the main focal point of the interface, I condensed the table-wide filters into a “Filter” button located at the top right of the scheduler table in order to prioritize the table&#39;s visibility. This feature also allows the user to adjust the visibility of these filters to their own liking.
     </p>
 
+    <img class="project-image" src="images/drexel-scheduler/change1-after1.png" alt="My unexpanded version of a filter button for categories">
+
+    <img class="project-image" src="images/drexel-scheduler/change1-after2.png" alt="My expanded version of a filter button for categories">
+
     <p class="project-text">
       When the filter button itself is clicked on, a main dropdown menu becomes visible with the previous filters being sorted into a number of sections that act as category-specific dropdowns: the “Course Number” category containing filters related to the Course Number column in the table, the “Instructor Information” category pertaining to filters altering columns related to Rate My Professor data, and the “Times” category containing filters associated with the course time-related columns. Additional filters that do not fall within these categories are located in a separate section at the bottom of the dropdown. To improve the visibility of this Filter section, the category names are bolded and the filters are white in order to make them stand out against the background. 
     </p>
 
     <h3>
-      Changes #2 & #3: Constraints and Affordances
+      Changes #2 &amp; #3: Constraints and Affordances
     </h3>
 
     <h4 class="project-text">
       Original
     </h4>
 
-    <img class="project-image" src="images/drexel-scheduler/change2-before1.png">
+    <img class="project-image" src="images/drexel-scheduler/change2-before1.png" alt="Original unexpanded column filter button">
 
-    <img class="project-image" src="images/drexel-scheduler/change2-before2.png">
+    <img class="project-image" src="images/drexel-scheduler/change2-before2.png" alt="Original expanded column filter button">
 
     <p class="project-text">
       The original interface contained filters for each individual column in the main table. As seen in the image above, when attempting to utilize the search bar filter within the individual column filter, the word “Contains”, inequality symbols, and the word “Expression” are given as options. The word “Contains” would be relevant to include, as selecting that option implies that the results that show up would contain the user-inputted text. The inclusion of the inequality symbols as options, however, were not applicable to the filtering of non-numerical values and yet still appeared for such filters, demonstrating the lack of a constraint. As to the usage of “Expression”, the functionality of this option was also unclear. Within my personal evaluation, the inclusion of these options only served to confuse me, causing a disruption to my ability to perform my task.
@@ -153,15 +160,15 @@
       Redesign
     </h4>
 
-    <img class="project-image" src="images/drexel-scheduler/change2-after1.png">
+    <img class="project-image" src="images/drexel-scheduler/change2-after1.png" alt="My unexpanded version of a Contains/Does not Contain button">
 
-    <img class="project-image" src="images/drexel-scheduler/change2-after2.png">
+    <img class="project-image" src="images/drexel-scheduler/change2-after2.png" alt="My expanded version of a Contains/Does not Contain button">
 
     <p class="project-text">
       The images above present a wireframe aiming to constrain the search filtration feature to basic, user-friendly components. It removes the inequality symbols and “Expression” options, and presents two options for the search filter dropdown: “Contains” and “Does Not Contain”. The utilization of these phrases makes it clear to the user their usage: “Contains” serves the function stated previously while “Does Not Contain” shows the options that do not include the user-inputted text.
     </p>
 
-    <img class="project-image" src="images/drexel-scheduler/change2-after3.png">
+    <img class="project-image" src="images/drexel-scheduler/change2-after3.png" alt="My version of a Match Case button">
 
     <p class="project-text">
       This wireframe reflects a modification to the feature that relocates it to be a part of the search bar. The choice to move the “Match Case” button to the search bar, the location that is being affected by its function, helps to better communicate to the user its functionality. Additionally, a gray box is added onto the button to help better distinguish the feature as a button rather than a design choice added purely for aesthetic reasons, which was my initial interpretation in the original interface.
@@ -178,6 +185,7 @@
     </p>
   </div>
 
+  <div class="footer-spacing"></div>
   
   <div class="footer">
     <div class="footer-elements">
