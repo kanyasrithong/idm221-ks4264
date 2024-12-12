@@ -266,10 +266,10 @@ header {
 .video-section {
   background-color: var(--tan);
   padding: 1rem 0;
+}
 
-  .video {
-    width: 100vw;
-  }
+.video {
+  width: 100vw;
 }
 
 .resume-line {
