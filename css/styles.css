@@ -53,7 +53,7 @@ p {
   font-weight: 400;
   letter-spacing: -0.3px;
   line-height: 1.5rem;
-  margin: 0.75rem 0;
+  margin: 0.5rem 0;
 }
 
 a:link {
@@ -68,26 +68,34 @@ header {
   background: var(--cream);
   height: 4rem;
   width: 100vw;
+
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 1000;
+}
 
-  label {
-    cursor: pointer;
-    height: 3rem;
-    position: absolute;
-    right: 0.5rem;
-    top: 0.6rem;
-    width: 2.75rem;
+.hamburger {
+  box-sizing: border-box;
+  height: 2.5rem;
+  width: 2.5rem;
 
-    span {
-      background-color: var(--brown);
-      display: block;
-      margin: 0 0 0.5rem 0;
-      height: 0.5rem;
-      width: 100%;
-    }
+  position: fixed;
+  right: 0.5rem;
+  top: 0.5rem;
+  z-index: 1001;
+
+  span {
+    background-color: var(--brown);
+    display: block;
+    margin: 0 0 0.5rem 0;
+    height: 0.5rem;
+    width: 100%;
   }
+}
+
+.hamburger:hover {
+  cursor: pointer;
 }
 
 .logo {
@@ -96,6 +104,7 @@ header {
 }
 
 .logo:hover {
+  cursor: pointer;
   opacity: 70%;
 }
 
@@ -106,11 +115,12 @@ header {
 .intro {
   display: block;
   font-family: Gloock;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 400;
   line-height: 3rem;
   margin: 0 auto 5px;
   text-align: center;
+  width: 90vw;
 }
 
 .subintro {
@@ -212,17 +222,54 @@ header {
 
 .project-section {
   text-align: center;
-}
-
-.project-text {
-  margin: 1rem auto;
-  text-align: left;
-  width: 90vw;
+  
+  .project-text {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    text-align: left;
+    width: 90vw;
+  }
 }
 
 .page-title {
   text-align: center;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0;
+}
+
+.column {
+  display: inline-block;
+  margin: 0.5rem;
+  vertical-align: top;
+  width: 9.5rem;
+}
+
+.creative-section {
+  margin: 12px;
+  text-align: center;
+}
+
+.creative-section-title {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.creative-entry {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.creative-image {
+  width: 9.5rem;
+}
+
+.video-section {
+  background-color: var(--tan);
+  padding: 1rem 0;
+
+  .video {
+    width: 100vw;
+  }
 }
 
 .resume-line {
@@ -242,9 +289,10 @@ header {
   margin: 0 auto;
 }
 
-.resume-center {
+.text-center {
+  margin: 1rem auto;
   text-align: center;
-  margin: 1rem;
+  width: 90%;
 }
 
 .resume-option {
@@ -339,7 +387,7 @@ header {
 }
 
 .linkedin-icon {
-  padding: auto 0;
+  padding: 33px 0 34px 0;
   width: 2rem;
 }
 
