@@ -1,7 +1,7 @@
 # Kanya Srithong
-Design for the soul
+Design for the soul🌱
 
-Check out some of my work below
+Check out some of my work below!
 
 # I’m Kanya, nice to meet you!
 
